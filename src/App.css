@@ -1,38 +1,130 @@
-.App {
+.search{
+  height: 100vh;
   text-align: center;
+  padding-top: 35vh;
+  padding-bottom: 65vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.instruction{
+  padding: 20px;
+  font-size: larger;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.loading{
+  height: 100vh;
+  text-align: center;
+  padding-top: 35vh;
+  padding-bottom: 65vh;
+  color: #50b7f5;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top{
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 50px;
+  background-color: #34aeeb;
+}
+.head{
+  font-size: 28px;
+  padding: 20px 50px;
+  border: 2px solid yellowgreen;
+  border-radius: 40px;
+  max-width: 400px;
+  color: blue;
+}
+.status{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 60%;
+  padding: 16px 0;
+  background-color: beige;
+  margin-top: 30px;
+  border-radius: 16px;
+}
+.status-item{
+  padding-top: 16px;
+  font-size: larger;
+  min-width: 150px;
+}
+.container{
+  width: 100vw;
+}
+.exploration{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 60%;
+  padding: 24px 0;
+}
+.world-img{
+  width: 120px;
+}
+.exploration-item{
+  display: flex;
+  align-items: center;
+  background-color: cadetblue;
+  border-radius: 24px;
+  justify-content: space-evenly;
+  min-width: 200px;
+  flex-basis: 45%;
+  margin: 10px;
+  font-size: larger;
+}
+.character{
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px 100px;
+  background-color: #34aeeb;
 }
-
-.App-link {
-  color: #61dafb;
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border: 2px solid #50b7f5;
+  margin: 20px;
+  background-color: beige;
+  font-size: large;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-img{
+  width: 160px;
+}
+.level{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heart-row{
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heart{
+  color: red;
+}
+.bottom{
+  text-align: center;
+  padding: 30px;
+  background-color: #34aeeb;
+}
+.refresh-btn{
+  padding: 16px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.search-btn{
+  border: 1px solid blue;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 4px;
+}
+.input-bar{
+  height: 20px;
+  margin-right: 4px;
 }
